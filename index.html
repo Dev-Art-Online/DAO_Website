@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link " rel="icon" type="image/png" href="assets/logo.png" style="border-radius: 50%;">
+    <title>DAO - Home</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav>
+        <div class="container">
+            <h1><img src="assets/logo.png" alt="Dev Art Online"></h1>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="index.html#team">Team</a></li>
+                <li><a href="project.html">Projects</a></li>
+                <li><a href="jobs.html">Jobs</a></li>
+                <li><a href="bootcamp.html">Bootcamp</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="contact.html">Contact</a></li>
+
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero">
+        <div class="container">
+            <br>
+            <h2>Welcome to DAO</h2>
+            <p>Are you passionate about coding, designing, or creating innovative projects?</p>
+            <p>Interested in developing your skills, working in a team for freelancing or teaching?</p>
+            <p>Look no further! <strong>Dev Art Online.</strong></p> 
+            <p>A community of computer scientist dedicated to freelancing, tutoring, and remote job opportunities in software development.</p>
+
+            <a href="contact.html" class="btn">Join Us</a>
+        </div>
+    </section>
+
+    <!-- activities Section -->
+    <section id="activities">
+        <div class="container">
+            <h2>Our activities</h2>
+            <div class="activities-list">
+                <div class="activity">
+                    <h3>App development</h3>
+                    <p>We specialize in developing custom mobile and web applications tailored to our clients' needs.</p>
+                </div>
+                <div class="activity">
+                    <h3>Bootcamp</h3>
+                    <p>We provide tutoring activities in computer science topics, including programming languages, algorithms, and more.</p>
+                </div>
+                <div class="activity">
+                    <h3>Freelancing</h3>
+                    <p>Our team offers freelance software development activities for various projects and platforms.</p>
+                </div>
+                <div class="activity">
+                    <h3>Remote Job</h3>
+                    <p>We connect talented students with remote job opportunities in the field of software development.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Team Section -->
+    <section id="team">
+        <div class="container">
+            <h2>Our Team</h2>
+            
+            <div class="team-members-list">
+                <div class="team-member">
+                    <img src="assets/me.jpg" alt="Madick Ange César">
+                    <h3>Madick Ange César</h3>
+                    <p><strong>Role:</strong> CEO </p>
+                </div>
+
+                <div class="team-member">
+                    <img src="assets/Kiojuro.png" alt="Nde Ulrich Dilan">
+                    <h3>Nde Ulrich Dilan</h3>
+                    <p><strong>Role:</strong> Co-Founder </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+     <!-- Team Section -->
+     <section id="partner">
+        <div class="container">
+            <h2>Partners/Students Clubs</h2>
+            
+            <div class="partners-list">
+                <div class="partner">
+                    <a href="http://ngcodex.com" target="_blank" rel="noopener">
+                        <img src="assets/ng.jpeg" alt="NGCODEX" >
+                        <h3>NGCODEX</h3>
+                    </a>
+                </div>
+                
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="container">
+            <p>Copyright &copy; 2024 <strong>DAO</strong>. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- JavaScript for smooth scrolling -->
+    <script>
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+
+</body>
+
+</html>
